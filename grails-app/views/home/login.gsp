@@ -34,7 +34,7 @@
 	<div class="login-box">
 		<div class="row">
 			<div class="large-6 columns">
-				<div class="login-header">Linked<span>Ink</span></div>
+				<h1>Linked<span>Ink</span></h1>
 			</div>
 			<div class="large-6 columns">
 				<g:form controller="home" method="post">
