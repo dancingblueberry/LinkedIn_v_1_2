@@ -23,6 +23,7 @@ class HomeController {
     }
 
     def signout() {
-        
+        session.invalidate()
+        redirect(action:"login")
     }
 }
