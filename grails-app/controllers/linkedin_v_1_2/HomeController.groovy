@@ -10,6 +10,10 @@ class HomeController {
 
     }
 
+    def signup() {
+
+    }
+
     def profile() {
     	
     }

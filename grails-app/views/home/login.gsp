@@ -22,11 +22,40 @@
 			<section class="top-bar-section">
 				<!-- Right Nav Section -->
 				<ul class="right">
-					<li class="active"><a href="#">Profile</a></li>
-					<li><a href="#">Messages</a></li>
+					<li class="active"><a href="#">Login</a></li>
+					<li><a href="${createLink(controller:'home', action:'signup')}">Sign Up</a></li>
 				</ul>
 			</section>
 		</nav>
+	</div>
+
+	<div class="login-background"></div>
+	<div class="login-gradient"></div>
+	<div class="login-box">
+		<div class="row">
+			<div class="large-6 columns">
+				<div class="login-header">Linked<span>Ink</span></div>
+			</div>
+			<div class="large-6 columns">
+				<g:form controller="home" method="post">
+					<div class="row">
+						<div class="large-12 columns">
+							<input type="text" name="username" placeholder="Username" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<input type="password" name="password" placeholder="Password" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<input type="submit" class="button expand" value="Log In"/>
+						</div>
+					</div>
+				</g:form>
+			</div>
+		</div>
 	</div>
 
 	<!-- javascript initialization -->
