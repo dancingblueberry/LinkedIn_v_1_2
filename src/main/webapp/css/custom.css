@@ -1,6 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
-
 .full-width {
 	width: 100%;
    	/*margin-left: auto;
@@ -9,12 +6,11 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #fff;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*background: #fff;*/
 
     color: #fff;
-    font-family: Arial;
     font-size: 12px; }
 
 .login-background {
@@ -55,12 +51,10 @@ body {
 	z-index: 2; 
 	float: left;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
 	font-size: 5em;
 	font-weight: 200; }
     .login-header span {
 	   color: #2ba6cb !important; }
-
 
 ::-webkit-input-placeholder,
 ::-moz-input-placeholder {
