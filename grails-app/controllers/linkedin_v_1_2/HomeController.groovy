@@ -21,4 +21,8 @@ class HomeController {
     def messages() {
 
     }
+
+    def signout() {
+        
+    }
 }

@@ -25,6 +25,7 @@
 					<li><a href="${createLink(controller:'home', action:'index')}">Home</a></li>
 					<li><a href="${createLink(controller:'home', action:'profile')}">Profile</a></li>
 					<li class="active"><a href="${createLink(controller:'home', action:'messages')}">Messages</a></li>
+					<li><a href="${createLink(controller:'home', action:'signout')}">Sign Out</a></li>
 				</ul>
 			</section>
 		</nav>
