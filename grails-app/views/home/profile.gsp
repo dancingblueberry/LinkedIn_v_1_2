@@ -24,7 +24,7 @@
 				<ul class="right">
 					<li><a href="${createLink(controller:'home', action:'index')}">Home</a></li>
 					<li class="active"><a href="${createLink(controller:'home', action:'profile')}">Profile</a></li>
-					<li><a href="${createLink(controller:'home', action:'messages')}">Messages</a></li>
+					<li><a href="${createLink(controller:'messages', action:'index')}">Messages</a></li>
 					<li><a href="${createLink(controller:'home', action:'signout')}">Sign Out</a></li>
 				</ul>
 			</section>
@@ -38,8 +38,8 @@
 			<h1>Amanda Berryhill</h1>
 			<br>
 			<div class="row">
-			  	<div class="medium-2 columns">Education</div>
-			  	<div class="medium-9 columns">
+			  	<div class="large-2 columns"><span class="label">Educational Details</span></div>
+			  	<div class="large-10 columns">
 			  		<div class="panel">
 			  			<strong>University of Calfornia, Riverside</strong><br>
 			  			B.S. Computer Science<br>
@@ -54,8 +54,8 @@
 			</div>
 			<br>
 			<div class="row">
-			  	<div class="medium-2 columns">Work Experience</div>
-			  	<div class="medium-9 columns">
+			  	<div class="large-2 columns"><span class="label">Work Experience</span></div>
+			  	<div class="large-10 columns">
 			  		<div class="panel">
 			  			<strong>UCR Computing and Communications Department</strong><br>
 			  			Riverside, CA<br>
@@ -71,8 +71,8 @@
 			  	</div>
 			</div>
 			<div class="row">
-			  	<div class="medium-2 columns">Information</div>
-			  	<div class="medium-9 columns">
+			  	<div class="large-2 columns"><span class="label">Information</span></div>
+			  	<div class="large-10 columns">
 			  		<div class="panel">
 			  			<strong>Email: </strong>amanda.berryhill@email.ucr.edu<br>
 			  			<strong>Date of Birth: </strong>November 7, 1994
