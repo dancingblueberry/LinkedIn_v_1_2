@@ -1,9 +1,5 @@
 .full-width {
-	width: 100%;
-   	/*margin-left: auto;
-   	margin-right: auto;
-   	max-width: initial;*/
-}
+	width: 100%; }
 
 .login-background {
 	position: absolute;
@@ -31,23 +27,16 @@
 	opacity: 0.7; }
 
 .login-box {
-    margin: 4em 0;
-    padding: 4em 2em 0 2em;
-    z-index: 2; }
+    padding: 8em 2em 0 2em;
+    z-index: 2; 
+    color: #fff; }
     .login-box input[type=text], 
     .login-box input[type=password] {
         color: #fff;
-        background: rgba(255,255,255,0.5); }
+        background: rgba(0,0,0,0.2); }
     .login-box h1 {
-        z-index: 2; 
-        float: left;
         color: #fff; 
         font-weight: 200; }
-    .login-box h1 > span {
+    .login-box h1 span {
         color: #2ba6cb !important; 
         font-weight: 500 !important; }
-
-::-webkit-input-placeholder,
-::-moz-input-placeholder {
-   color: rgba(255,255,255,0.6);
-}

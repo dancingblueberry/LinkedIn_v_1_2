@@ -16,13 +16,13 @@
                     <h1><a href="${createLink(controller:'home', action:'index')}">L</a></h1>
                 </li>
                  <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Home</span></a></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
 
             <section class="top-bar-section">
                 <!-- Right Nav Section -->
                 <ul class="right">
-                    <li><a href="${createLink(controller:'home', action:'login')}">Login</a></li>
+                    <li><a href="${createLink(controller:'home', action:'login')}">Log In</a></li>
                     <li class="active"><a href="${createLink(controller:'home', action:'signup')}">Sign Up</a></li>
                 </ul>
             </section>
@@ -33,7 +33,7 @@
     <div class="login-gradient"></div>
     <div class="login-box">
         <div class="row">
-            <div class="large-6 columns">
+            <div class="large-6 columns text-left">
                 <h1>Linked<span>Ink</span></h1>
             </div>
             <div class="large-6 columns">
@@ -41,6 +41,11 @@
                     <div class="row">
                         <div class="large-12 columns">
                             <input type="text" name="name" placeholder="Name" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <input type="text" name="dateofbirth" placeholder="Date Of Birth" />
                         </div>
                     </div>
                     <div class="row">
